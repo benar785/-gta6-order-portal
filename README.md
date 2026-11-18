@@ -1,0 +1,4 @@
+# GTA VI Independent Order Website
+Run: `npm install` then copy `.env.example` to `.env` and configure credentials, then `npm start`.
+The backend stores orders in SQLite and deliberately leaves payment status PENDING until real M-Pesa/PayPal server-side callbacks are integrated. Never put payment secrets in frontend code.
+Use Rockstar/Take-Two trademarks, logos, artwork or official branding only if you have permission/license.
